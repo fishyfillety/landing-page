@@ -149,6 +149,13 @@ body {
     border-radius: 5px;
 }
 
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px;
+}
+
 ul {
     list-style: none;
     margin: 0;
