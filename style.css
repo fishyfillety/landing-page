@@ -64,6 +64,7 @@ body {
 .info-section {
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .info-heading {
@@ -98,6 +99,28 @@ body {
     
 }
 
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 50px;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 10px;
+}
+
+.quote-author {
+    font-weight: bold;
+    color:#1f2937;
+    align-self: flex-end;
+    margin-right: 30px;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -111,7 +134,8 @@ a {
 
 .header,
 .hero,
-.info-section {
+.info-section,
+.quote-section {
     padding-left: 20%;
     padding-right: 20%;
 }
