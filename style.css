@@ -121,6 +121,34 @@ body {
     margin-right: 30px;
 }
 
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.cta-text {
+    color: #f9faf8;
+}
+
+.cta-text-heading {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.call-to-action button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: 1px solid white;
+    font-weight: bolder;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -135,7 +163,8 @@ a {
 .header,
 .hero,
 .info-section,
-.quote-section {
+.quote-section,
+.section {
     padding-left: 20%;
     padding-right: 20%;
 }
