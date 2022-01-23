@@ -28,7 +28,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 100px;
-    
 }
 
 .hero-text {
@@ -61,6 +60,44 @@ body {
 .banner {
     width: 300px;
 }
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-heading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 40px;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;    
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 150px;
+}
+
+.info-card-img {
+    box-sizing: border-box;
+    border: 1px solid blue;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.info-card-text {
+    
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -73,7 +110,8 @@ a {
 }
 
 .header,
-.hero {
+.hero,
+.info-section {
     padding-left: 20%;
     padding-right: 20%;
 }
